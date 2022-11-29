@@ -14,7 +14,7 @@
 body{
   font-family: "Varela Round";
   color:var(--black);
-  background:var(--white);
+  background:#000000;
   margin:0;
   }
   main {
@@ -26,7 +26,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--darkBlue);
+  background: #000000;
   text-align: center;
 }
 input {
@@ -50,9 +50,10 @@ label {
   font-size: 15px;
   font-family: "Varela Round";
   color:var(--blue);
+  text-transform: uppercase;
 }
 #title {
-  color: var(--blue);
+  color: #c4e2f9;
   margin-bottom: 0px;
 }
 h1 {
@@ -79,13 +80,13 @@ strong {
   max-width: 75%;
   line-height: 1.5;
   font-size: 14px;
-  color: var(--blue);
+  color: #cf6868;
 }
 #check-btn {
   padding: 12px 40px;
   border: none;
-  background: var(--blue);
-  color: var(--darkBlue);
+  background: #fe7c7c;
+  color: #fbfcff;
   border-radius: 8px;
   cursor: pointer;
   font-size:15px;
@@ -183,6 +184,7 @@ a {
 #footer {
   color:#00b1d2ff;
   /* padding-top: 10px; */
+     padding-top: 1px;
     font-size: large !important;
     bottom: 0;
     width: 100%;
