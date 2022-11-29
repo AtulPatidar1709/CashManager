@@ -1,0 +1,205 @@
+ @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital@0;1&family=Varela&family=Varela+Round&display=swap");
+:root{
+--white:#ffffff;
+--black:#000000;
+--blue:#7cc6fe;
+--darkBlue:#252d4a; 
+--lightBlue:#8ecae6;
+}
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+  font-family: "Varela Round";
+  color:var(--black);
+  background:var(--white);
+  margin:0;
+  }
+  main {
+  display: block;
+   }
+#wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--darkBlue);
+  text-align: center;
+}
+input {
+  /* 
+  
+  padding: 8px 16px;
+  border-radius: 4px;
+   */
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid var(--darkBlue);
+  height: 50px;
+  outline: none;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+label {
+  font-size: 15px;
+  font-family: "Varela Round";
+  color:var(--blue);
+}
+#title {
+  color: var(--blue);
+  margin-bottom: 0px;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box; 
+  height: 0; 
+  overflow: visible; 
+}
+
+pre {
+  font-family:"Varela Round"; 
+  font-size: 1em; 
+}
+a {
+  background-color: transparent;
+}
+strong {
+  font-weight: bolder;
+}
+#description {
+  max-width: 75%;
+  line-height: 1.5;
+  font-size: 14px;
+  color: var(--blue);
+}
+#check-btn {
+  padding: 12px 40px;
+  border: none;
+  background: var(--blue);
+  color: var(--darkBlue);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size:15px;
+  font-family: "Varela Round";
+}
+#check-btn:hover {
+  background:var(--lightBlue);
+  font-size:18px;
+}
+#bill-amount,
+#cash-collected {
+  padding: 1rem 0;
+}
+
+#cash-collected,
+#notes-table {
+  display: none;
+}
+
+#display-message {
+  color:red;
+}
+#notes-table {
+  margin-bottom: 32px;
+  table-layout: fixed;
+}
+
+#notes-table caption {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color:var(--blue);
+}
+
+#return-change {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+td,
+th {
+  padding: 0.2rem;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+th,
+.note-value {
+  background: var(--blue);
+  color:var(--darkBlue);
+}
+
+html {
+  line-height: 1.15; 
+  -webkit-text-size-adjust: 100%;
+}
+[hidden] {
+  display: none;
+} 
+#name{
+  text-align: center;
+  align-items: center;
+  color:#7d7d7d;
+  position:sticky;
+   
+}
+
+a {
+  display: inline;
+}
+/* footer */
+#footer {
+  bottom: 0;
+  padding: 1rem 1rem 1rem;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  /* color: #3b82f6; */
+  color:#00b1d2ff;
+  width: 10px;
+  height: 10px;
+  margin: 0.5px;
+  margin-right: 10px;
+  margin-bottom: var(--mb-4);
+}
+.footer-social {
+  margin-bottom: var(--mb-4);
+  padding-top: 10px;
+}
+
+#footer {
+  color:#00b1d2ff;
+  /* padding-top: 10px; */
+    font-size: large !important;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer #copyright {
+  margin-top: 0.5em;
+  font-weight: 500;
+  color: #7d7d7d;
+  font-size: 15px;
+}
+.footer-title {
+  color: #7d7d7d;
+  font-size: 20px;
+  /* padding: 5px; */
+  margin-bottom: 10px;
+}
+a {
+  display: inline;
+}
